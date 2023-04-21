@@ -13,18 +13,9 @@ The project uses forms to collect user data.
 # Example Installation Steps
 
 1. Clone the repository: `git clone https://github.com/yourusername/projectname.git`
-2. Install dependencies: `npm install`
-3. Configure environment variables: Create a `.env` file and add any required environment variables.
-4. Run the project: `npm start`
+2. Open the file Index.html on a web browser
 
 
-
-# Example Usage
-
-1. Run the project: `npm start`
-2. Open a web browser and navigate to `http://localhost:3000`
-3. Create an account or login.
-4. Follow the on-screen instructions to use the features of the application.
 
 
 # Example Contributing
