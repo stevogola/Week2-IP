@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Karla:wght@300;400;600&family=Poppins:wght@300;400;600&family=Space+Mono:wght@400;700&display=swap');
+
+/* page reset */
+* {
+   margin: 0;
+   padding: 0;
+   /* outline: red .7px solid; */
+}
+html {scroll-behavior: smooth;}
+body { font-family: 'Poppins', sans-serif; }
+p { font-family: 'Karla', sans-serif; }
+
+.container {
+   max-width: 968px;
+   margin: 0 auto;
+}
+.page-center {
+   text-align: center;
+   padding: 1.4rem 0;
+}
+.center-back {
+   color: #fff;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+h3 { margin-bottom: 1.4rem; }
+/* ################## */
+
+
+/* header section */
+#header {
+   height: 100vh;
+   background-image: url('./assets/backgrounds/h_img.jpg');
+   position: relative;
+}
+#header .container{
+   display: grid;
+   place-items: center;
+   height: 100%;
+}
+#page-header {
+   text-align: center;
+}
+.scroll-btn {
+   position: absolute;
+   bottom: 1.4rem;
+   left: 0;
+   right: 0;
+   display: grid;
+   place-items: center;   
+}
+/* ############## */
+
+/* services section */
+#services {
+   background-image: url('./assets/backgrounds/s_image.jpg');
+}
+/* ################### */
+
+/* what we do section */
+#page-whatwedo {
+   font-size: smaller;
+}
+#page-whatwedo .col-sm-12 {
+   cursor: pointer;
+}
+#page-whatwedo img {
+   height: 70px;
+   width: 70px;
+   margin-bottom: .8rem;
+}
+/* ###################### */
+
+/* portfolio section */
+#page-portfolio {
+   text-align: center;
+}
+#page-portfolio img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+#page-portfolio .col-sm-12 {
+   cursor: pointer;
+}
+.work {
+   position: relative;
+}
+.work:hover .overlay {
+   display: grid;
+}
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   color: #fff;
+   display: grid;
+   place-items: center;
+}
+.over {
+   display: none;
+}
+.work-description {
+   color: #000;
+   background-color: #fff;
+   padding: 1.2em;
+   border-radius: 5px;
+}
+/* ###################### */
+
+
+/* contact section */
+#contact {
+   background-image: url('./assets/backgrounds/c_image.jpg');
+}
+input, textarea {
+   background: transparent !important;
+   color: #fff !important;
+}
+::-webkit-input-placeholder { /* WebKit/Blink browsers */
+   color: #fff !important;
+}
+
+css
+Copy code
+::-webkit-input-placeholder { /* WebKit/Blink browsers */
+  color: #fff;
+}
+/* ############## */
+
+/* socials section */
+#page-social {
+   text-align: center;
+   padding: 1rem;
+}
+/* ################## */
+
+/* footer */
+#page-footer {
+   text-align: center;
+}
